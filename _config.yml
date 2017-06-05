@@ -1,0 +1,19 @@
+name: htaccess.org
+tagline:
+url: http://www.htaccess.org
+
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
+  parse_block_html: true
+
+gems:
+
+exclude:
+  - deploy.sh
+  - Gemfile
+  - Gemfile.lock
+
+collections:
